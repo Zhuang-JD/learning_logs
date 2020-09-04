@@ -1,0 +1,12 @@
+1,建立虚拟环境	python -m venv ll_env(环境名)
+
+2,激活虚拟环境	ll_env\Scripts\activate(windows)
+
+3,安装Django	pip install Django
+
+4,创建项目	django-admin startproject learning_log .(项目名，后面加一点配置)
+
+5,创建数据库	python manage.py migrate
+
+6,查看项目	python manage.py runserver (后面加上端口号可以改端口号)	默认8000端口	网址127.0.0.1:8000
+		
